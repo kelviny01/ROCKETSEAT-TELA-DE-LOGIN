@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- LINK FONTS ICONS -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    
+    <main>
+        <section class="register">
+            <div class="register__leftSide">
+                <div class="register__logo">
+                    <img src="assets/img/logoVertigo.png" alt="Logo da empresa Vertigo">
+                </div>
+                <div class="register__content">
+                    <h2>Acesse a plataforma</h2>
+                    <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                    <form class="register__login form">
+                        <label for="email" class="register__email">E-mail</label>
+                        <input required type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                        <div class="register--password">
+                            <label for="password" class="register__password">Senha</label>
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                        <div class="inputShowPassword">
+                            <input required type="password" id="inputPassword" name="password" placeholder="Digite sua senha" maxlength="10">
+                            <i class="ph ph-eye"></i>
+                        </div>
+                        <div class="register__buttons register__btn--hover">
+                            <button type="submit" class="register__btn">Entrar</button>
+                            <p>Ainda não tem uma conta? <a href="createAccount.html">Inscreva-se</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="bg__rightSide"><!-- BACKGROUND HERE --></div>
+        </section>
+    </main>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

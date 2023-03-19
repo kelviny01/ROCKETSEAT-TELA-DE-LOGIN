@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- LINK CSS CREATE ACCOUNT -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crie uma conta</title>
+</head>
+<body>
+    
+    <div class="register__leftSide">
+        <div class="register__logo">
+            <img src="assets/img/logoVertigo.png" alt="Logo da empresa Vertigo">
+        </div>
+        <div class="register__content">
+            <h2>Acesse a plataforma</h2>
+            <p>Faça seu cadastro para acessar a plataforma, e começar a construir seus projeto.</p>
+            <form class="register__login form">
+                <label for="name" class="register__name">Nome</label>
+                <input required type="text" id="name" name="name" placeholder="Digite seu nome">
+                <small class="textNone">Campo vazio!</small>
+                <label for="email" class="register__email" >E-mail</label>
+                <input required type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <small class="textNone">Campo vazio!</small>
+                <label for="password" class="register__password">Criar senha</label>
+                <input required type="password" id="password" name="password" placeholder="Crie sua senha" maxlength="10">
+                <small class="textNone">Campo vazio!</small>
+                <div class="register__buttons register__btn--hover">
+                    <button type="submit" class="register__btn">Cadastre-se</button>
+                    <p>Já possui conta? <a href="index.html">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
